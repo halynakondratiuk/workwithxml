@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+	
+	<book category="children">
+	<title lang="en">Harry Potter</title>
+	<author>Joanne Rowling</author>
+	<year>1997</year>
+	<price>250</price>
+	</book>
+
+	<book category="children">
+	<title lang="en">Mowgli</title>
+	<author>Rudyard Kipling</author>
+	<year>1893</year>
+	<price>350</price>
+	</book>
+
+	<book category="fantasy">
+	<title lang="en">Mr Mercedes</title>
+	<author>Stephen King</author>
+	<year>2014</year>
+	<price>150</price>
+	</book>
+
+	<book category="fantasy">
+	<title lang="en">It</title>
+	<author>Stephen King</author>
+	<year>1986</year>
+	<price>260</price>
+	</book>
+
+</bookstore>
