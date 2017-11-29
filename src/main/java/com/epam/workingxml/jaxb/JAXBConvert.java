@@ -24,6 +24,21 @@ public class JAXBConvert {
         }
     }
 
+    public static void convertFromXML(){
+        try {
+
+            File file = new File("src/input/book.xml");
+            JAXBContext jaxbContext = JAXBContext.newInstance(Book.class);
+
+            Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+            Book book = (Book) jaxbUnmarshaller.unmarshal(file);
+            System.out.println(String.format("Convert from XML: %s, %s, %d", book.getTitle(), book.getAuthor(), book. getYear()));
+
+        } catch (JAXBException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static void main(String[] args){
         Book book = new Book();
 
